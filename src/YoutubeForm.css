@@ -1,0 +1,30 @@
+.form-outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 700;
+}
