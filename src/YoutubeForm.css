@@ -6,6 +6,18 @@
   height: 100vh;
 }
 
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-control > p {
+  margin: 0px;
+  align-self: flex-start;
+  color: red;
+}
+
 form {
   display: flex;
   flex-direction: column;
